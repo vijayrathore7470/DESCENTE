@@ -140,3 +140,50 @@ nav{
    text-orientation: upright;
 
 }
+@media(max-width:768px) {
+    .menu{
+        display: none;
+    }
+    .btn-sec1 button:first-child{
+        display: none;
+    }
+     .L-head2 img{
+        display: none;
+    }
+    .img-sec{
+        display: none;
+    }
+    .buttom-sec{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media(max-width:645px){
+    .btn-sec1 button:last-child{
+        padding: 2px 20px;
+        font-size: 8px;
+    }
+    .logo h4{
+        font-size: 10px;
+    }
+    .L-head2,.L-head3,.L-head4,.L-head h4{
+        font-size: 20px;
+    }
+    .btnn-2 h6{
+     font-size: 8px;
+    }
+    .btnn-3{
+        width: 20%;
+        border-radius: 10px;
+    }
+   .btnn-3 h4{
+    font-size: 5px;
+   }
+   .btnn-1 h3,h1,.btnn-1 p{
+        font-size: 8px;
+    }
+    .btnn-1,.btnn-2{
+        width: 100%;
+    }
+}
